@@ -1,0 +1,117 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins' sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hov :hover{
+    color: #0ef;
+}
+
+.navbar {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-weight:500;
+    text-decoration: none;
+    transition: .3s;
+    margin-left: 35px;
+    margin-right: 2rem;
+}
+
+.navbar :hover {
+    color: #0ef;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 70px 10% 0;
+    justify-content: space-between;
+    background-image: url(study_img1.png);
+    background-size: cover;
+}
+
+.home-content {
+    max-width: 900px;
+    color: black;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p {
+    font-size: 20px;
+}
+
+.home-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+    background-color: transparent;
+    border:2px solid #0ef ;
+    border-radius:50% ;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-icon a:hover{
+    background-color: #0ef;
+    color: #0ef;
+    box-shadow: 1px 1px 1px #0ef;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box {
+    box-shadow:0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
